@@ -1,6 +1,23 @@
+body {
+	font-family: sans-serif;
+	font-style: normal;
+	font-variant: normal;
+
+	margin: 10;
+	padding: 10;
+}
+
+p {
+	line-height: 1.5;
+}
+
+header {
+	margin: auto;
+}
+
 header h1 {
-	display: block;
 	text-align: center;
+	text-shadow: 4px 4px 4px #aaa;
 }
 
 footer {
@@ -8,44 +25,34 @@ footer {
 	text-align: center;
 }
 
-article {
-	display: block;
-	clear: both;
-}
-
-p {
-	font-family: verdana;
-}
-
-h1 {
-	font-family: verdana;
+main {
+	width: 75%;
+	margin: auto;
 }
 
 h2 {
-	font-family: verdana;
 	text-align: center;
 }
 
 section {
-	display: block;
+	display: inline-block;
+	margin: 10px;
 	padding: 5px;
-	padding-top: 10px;
-	clear:both;
 	text-align: justify;
+	background-color: lightgrey;
 }
 
 /** MENU **/
 
 .menu li {
 	list-style-type: none;
-	margin-left: 30px;
+	margin-right: 15px;
 	display: inline;
-	font-family: verdana;
 }
 
 .menu {
-	width: 50%;
 	margin: auto;
+	text-align: center;
 }
 
 /** IMAGES **/
@@ -84,4 +91,8 @@ a:active {
 	color: yellow;
 	background-color: transparent;
 	text-decoration: none;
+}
+
+.shownotes {
+	font-family: monospace;
 }
