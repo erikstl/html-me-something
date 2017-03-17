@@ -4,11 +4,11 @@ body {
 	font-variant: normal;
 	width: 80%;
 	margin: auto;
-	padding: 10;
 }
 
 p {
 	line-height: 1.5;
+	padding: 5px;
 }
 
 header {
@@ -32,12 +32,13 @@ main {
 
 h2 {
 	text-align: center;
+	display:none;
 }
 
 section {
 	display: inline-block;
 	margin: 10px;
-	padding: 5px;
+	padding: 0px;
 	text-align: justify;
 	background-color: lightgrey;
 }
@@ -57,15 +58,11 @@ section {
 
 /** IMAGES **/
 
-img.left {
-	float: left;
-	padding-right: 10px;
+img {
+	margin:0;
+	width: 100%;
 }
 
-img.right {
-	float: right;
-	padding-left: 10px;
-}
 
 /** LINKS **/
 
