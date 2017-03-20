@@ -41,6 +41,7 @@ section {
 	padding: 0px;
 	text-align: justify;
 	background-color: lightgrey;
+	border-radius: 10px;
 }
 
 /** MENU **/
