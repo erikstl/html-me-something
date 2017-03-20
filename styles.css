@@ -17,7 +17,7 @@ header {
 
 header h1 {
 	text-align: center;
-	text-shadow: 7px 7px 7px #aaa;
+	text-shadow: 5px 5px 5px #aaa;
 }
 
 footer {
@@ -80,7 +80,7 @@ a:visited {
 }
 
 a:hover {
-	color: green;
+	color: red;
 	background-color: transparent;
 	text-decoration: underline;
 }
